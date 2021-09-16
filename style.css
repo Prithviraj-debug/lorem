@@ -323,8 +323,9 @@ footer p {
 
     /* sec one */
 
-    .contact {
+    .one .contact {
         flex-direction: column;
+        padding: 10px;
     }
 
     .contact .content {
@@ -339,7 +340,7 @@ footer p {
 
     .contact .image img {
         margin-top: 40px;
-        width: 350px;
+        width: 300px;
     }
 
     /* sec two */
@@ -347,14 +348,18 @@ footer p {
 
     .lorem {
         flex-direction: column;
-        margin: 0 auto;
+        align-items: center;
     }
 
     .lorem .con {
         width: 90%;
         text-align: center;
         font-size: 15px;
-        margin: 0;
+        margin: 0 auto;
+    }
+
+    .lorem img {
+        width: 300px;
     }
 
     .cards :not(:nth-of-type(1)) {
