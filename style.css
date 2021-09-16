@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Desktop Design */
+
+/* Navbar */
+.hamburger {
+    display: none;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    
+}
+
+.logo div {
+    height: 45px;
+    width: 45px;
+    background: white;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+/* Section one */
+
+.one {
+    background-image: linear-gradient(to right, rgba(40, 0, 109, 0.883), rgba(30,0,81,1));
+    /* background-color: #25035C; */
+    color: white;
+    height: 100%;
+}
+
+.one .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 44px;
+}
+
+.one .contact .button {
+    background: #5cb85c;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.image img {
+    width: 600px;
+    height: auto;
+}
+
+.scroll {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.scroll img {
+    width: 30px;
+    margin-top: 14px;
+}
+
+/* Section two */
+
+.lorem {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.lorem img {
+    width: 400px;
+    margin: 40px;
+}
+
+.lorem .con {
+    margin: 40px;
+    width: 40%;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+}
+
+.lorem .con h2 {
+    color: #140033;
+    font-size: 30px;
+}
+
+.lorem:nth-of-type(2) .image {
+    position: absolute;
+    right: 200px;
+}
+
+.lorem:nth-of-type(2) .con {
+    position: relative;
+    left: -200px;
+}
+
+/* Section three */
+
+.testimonials {
+    padding-top: 80px;
+    background-image: linear-gradient(to right, rgba(40, 0, 109, 0.883), rgba(30,0,81,1));
+    /* background: #25035C */
+    color: white;
+    text-transform: capitalize;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.cards {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    height: 300px;
+    background-color: #8a41ff96;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.card p {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dots img {
+    width: 50px;
+    margin: 80px;
+}
+
+/* Section four */
+
+.kontact {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-transform: capitalize;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.info img {
+    width: 500px;
+    margin-right: 60px;
+}
+
+.info h2 {
+    font-size: 30px;
+    color: #140033;
+}
+
+.kontact p {
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+}
+
+.questions {
+    text-align: center;
+    font-weight: bold;
+}
+
+.questions h1 {
+    color: #140033;
+    font-size: 35px;
+}
+
+.socials {
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.questions .socials i {
+    font-size: 40px;
+    color: #518ed4;
+    padding: 20px;
+}
+
+/* Footer */
+
+footer {
+    background: #353152;
+    color: white;
+    text-transform: capitalize;
+}
+
+.menus ul {
+    padding-top: 40px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.menus li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menus .line {
+    height: 1px;
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+footer .logo div {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+
+footer .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+footer .socials i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.back {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.back i {
+    font-size: 50px;
+}
+
+
+/* Mobile Design */
+
+@media (max-width: 600px) {
+
+    /* ham */
+    .hamburger {
+        display: block;
+        float: right;
+        margin: 40px;
+    }
+
+    .hamburger i {
+        font-size: 30px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    /* sec one */
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact .content {
+        font-size: 20px;
+    }
+
+    .contact .content .button {
+        font-size: 12px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .contact .image img {
+        margin-top: 40px;
+        width: 350px;
+    }
+
+    /* sec two */
+
+
+    .lorem {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .lorem .con {
+        width: 90%;
+        text-align: center;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .cards :not(:nth-of-type(1)) {
+        display: none;
+    }
+
+    .kontact .info {
+        flex-direction: column;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .lorem:nth-of-type(2) .image {
+        position: static;
+    }
+    
+    .lorem:nth-of-type(2) .con {
+        position:static;
+    }
+
+    .lorem .con h2 {
+        margin-bottom: 40px;
+        font-size: 25px;
+    }
+
+    .lorem {
+        margin-bottom: 60px;
+    }
+
+    /* sec three */
+
+    .testimonials h2 {
+        font-size: 22px;
+        margin: 0px;
+    }
+    
+    .kontact {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .info img {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .kontact p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .questions h1 {
+        font-size: 25px;
+    }
+    
+    .socials {
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+    
+    .questions .socials i {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    /* Footer */
+    .menus ul {
+        flex-direction: column;
+        font-size: 13px;
+    }
+    
+    footer .logo div {
+        width: 50px;
+        height: 50px;
+    }
+    
+    footer .socials i {
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+    .back {
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    
+    .back i {
+        font-size: 20px;
+    }
+    
+}
